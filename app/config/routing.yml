@@ -1,0 +1,9 @@
+
+
+lemon_todo_mvc:
+    path:      /
+    defaults:  { _controller: LemonTodoMvcBundle:Index:index }
+
+lemon_rest:
+    resource: "@LemonRestBundle/Resources/config/routing.yml"
+    prefix:   /api
